@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://gzhihao.github.io/sitemap.xml 
