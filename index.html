@@ -9,8 +9,7 @@
   <meta name="author" content="Kevin Guo">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="读过《看板和Scrum—相得益彰》(中文版 英文版)，简单记录一下 什么是看板 看板最早起源于丰田，是其推动精益和持续改善的有效工具。 一般而言，想提高做事效率，最有效的方式是让工作的各个环节流动平滑起来，消除瓶颈和减少等待时间。基于这个出发点，看板只规定两件事：1) 工作流必须可见，2) 控制 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +71,108 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2012/06/04/about-kanban/">看板(Kanban)简记</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-04T18:05:00+08:00" pubdate data-updated="true">Jun 4<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>读过《看板和Scrum—相得益彰》(<a href="http://www.infoq.com/cn/minibooks/kanban-scrum-minibook-cn">中文版</a> <a href="http://www.infoq.com/cn/minibooks/kanban-scrum-minibook-cn">英文版</a>)，简单记录一下</p>
+
+<h1>什么是看板</h1>
+
+<p>看板最早起源于丰田，是其推动精益和持续改善的有效工具。</p>
+
+<p>一般而言，想提高做事效率，最有效的方式是让工作的各个环节流动平滑起来，消除瓶颈和减少等待时间。基于这个出发点，看板只规定两件事：1) 工作流必须可见，2) 控制&#8221;在制品&#8221;(Work In Progress) 上限，并在此基础上 3) 优化流程，缩短生产周期并使其可预测。以上三点是看板的精髓。</p>
+
+<h2>1)工作流可见</h2>
+
+<p>任务拆分：将项目拆分成一系列小而具体的可交付的任务。
+标识工作流程：在白板（看板图）上画出任务从开始到完成需要经历的阶段。
+用卡片表示任务：随着工作的开展，卡片会从左至右流动，直至完成。
+<img src="http://ww3.sinaimg.cn/mw600/6d54b5a8jw1dthene9pcvj.jpg" alt="kanban" /></p>
+
+<p>看板图直观地反映了工作的进度。当进度出现问题的时候，很容易暴露出来。</p>
+
+<h2>2） 控制&#8221;在制品&#8221;</h2>
+
+<p>在看板列中设置卡片数量上限（上图红色数字），当卡片数达到了列设置上限就不能再为该列添加新的卡片。如果这时有人手头上没有任务，他/她可以
+&ndash; 领取下游没有到达上限的列的任务。例如上图的Dev列的限制是3，而这时只有两个任务正处开发状态，可以领取Todo列的任务进行开发
+&ndash; 帮助其他人解决问题。例如Test列已达到上限，如果不尽快完成Test任务，会导致Dev任务排队等待测试，造成瓶颈，阻塞整体进度。
+列中设置的上限就是限制“在制品&#8221;，由于引入了这个限制，迫使大家优先解决阻塞和瓶颈问题，减少等待的时间。</p>
+
+<h2>3) 优化流程和缩短生产周期</h2>
+
+<p>看板每列（最后一列除外）都可以设置上限。“上限该设多少”在一开始并不重要，随着团队的运作，可以根据实际的运作情况进行调整优化。
+通过一些指标（如生产周期，不同工作类型的生产率等）和图可以发现瓶颈，分析不均衡生产，超负荷问题。</p>
+
+<h1>看板与Scrum的比较</h1>
+
+<p>书中对看板与Scrum做了非常详细的对比
+&ndash; 看板没有规定任何角色；而Scrum规定了三种角色（Product owner，Scrum master，team）
+&ndash; 看板没有固定迭代周期，生产周期是事后度量出来的；Scrum有固定迭代周期，而且迭代内有非常明确的节奏：计划，过程，发布。
+&ndash; 看板通过流程状态来限制在制品；Scrum通过固定时长（Timebox）来限制在制品，即一个迭代内能做多少是有限制的。
+&ndash; 看板图对应的是流程，不一定对应一个团队；Scrum则只属于某个团队（当然其他人也可见）。
+&ndash; 看板对工作估算没有明确规定；Scrum规定了任务估算和生产率（Velocity)。
+&ndash; 看板没有要求图表（但也可以使用，如累积流图）；Scrum会使用燃尽图跟踪迭代进度。</p>
+
+<p>另外Scrum中要求的计划会议，站立会议，回顾会议，在看板中都没有定义，总体来看看板相比Scrum，约束更小。</p>
+
+<h1>总结</h1>
+
+<p>就开发而言，看板适合于周期不确定，或者同时管理周期不一致的任务，例如Bug fixing，Customer support，Operation support 等等；而Scrum更适合于有固定周期的工作，例如产品开发
+看板非常灵活，在不同的应用场景下可以有不同的配置，实践中可以参考<a href="http://dl.dropbox.com/u/1638038/publikationer/10%20kanban%20boards%20and%20their%20context/10%20different%20kanban%20boards%20and%20their%20context%20-%20mskarin.pdf">10 kanban boards and their context</a></p>
+
+<p>另外，也可以考虑在Scrum中加入看板元素，最直接的就是为状态列设置上限。例如，迭代初期团队往往只关注开发，到后期可能由于环境和人手的问题无法顺利进行测试，所有功能都在等待排队测试。这时候如果在测试列和Checkout列设置上限，问题就会很容易被发现，团队也会自发地优先解决阻塞问题。</p>
+
+<p>除了用在团队开发，也有研究将它应用在个人任务管理，如<a href="http://www.personalkanban.com/pk/personal-kanban-101/">Personal Kaban</a>。我们可以试试给自己个人“在制品”也设置一个上限。</p>
+
+<p>如果对看板感兴趣，可以试试这两个工具</p>
+
+<ul>
+<li><a href="http://kanbanflow.com/">KanbanFlow</a>：简单易用，我之前简单介绍过，目前只有web版</li>
+<li><a href="https://trello.com/">Trello</a>： @LeoLiang_艳阳天 推荐，Fog Creek出品，功能强大，定制灵活。有Web版和iOS客户端</li>
+</ul>
+
+
+<h1>参考链接</h1>
+
+<ul>
+<li>电子书下载 <a href="http://www.infoq.com/cn/minibooks/kanban-scrum-minibook-cn">中文版</a> <a href="http://www.infoq.com/cn/minibooks/kanban-scrum-minibook-cn">英文版</a></li>
+<li><a href="http://www.crisp.se/kanban">Crisp (一间看板咨询公司)</a></li>
+<li><a href="http://dl.dropbox.com/u/1638038/publikationer/10%20kanban%20boards%20and%20their%20context/10%20different%20kanban%20boards%20and%20their%20context%20-%20mskarin.pdf">10 kanban boards and their context</a></li>
+<li><a href="http://www.personalkanban.com/pk/personal-kanban-101/">Personal Kaban</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2012/05/16/kanbanflow/">试用Kanban管理工具 - KanbanFlow</a></h1>
     
     
@@ -95,7 +196,23 @@
   </header>
 
 
-  <div class="entry-content">
+  <div class="entry-content"><p>KanbanFlow，正如其名，是一个Kanban管理工具。</p>
+
+<p><img src="http://ww1.sinaimg.cn/mw600/6d54b5a8jw1dszw8lw1w4j.jpg" alt="image" /></p>
+
+<p>什么是Kanban? <a href="http://www.crisp.se/kanban">Kanban</a> 也称作看板，源自丰田汽车生产的精益管理。除了工业生产外，现在被广泛用于软件开发管理中，也有人将其用于个人任务管理，例如
+<a href="http://www.personalkanban.com/pk/personal-kanban-101/">Personal Kanban</a>。</p>
+
+<p>KanbanFlow 类似Scrum whiteboard, 按任务状态设定不同列，任务从左至右流动直至完成。Kanban的核心思想之一是限制在制品(WIP), KanbanFlow也可以设定没列任务的上限。</p>
+
+<p>KanbanFlow可以用作项目管理，也可以个人任务管理。其特色在于：
+&ndash; 灵活定制，还可以随意增加列及看板
+&ndash; 不同类别可以用不同看板管理，例如可以分为 Work, Life, Personal development
+&ndash; 任务可以再细分任务，可记录估算时间和实际使用时间
+&ndash; 集成了番茄时间(<a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a>)，并可以查看统计数据，这点最赞
+&ndash; 支持团队协作，如任务分配</p>
+
+<p>这一两周暂时搁置Calinbox, 先试试KanbanFlow</p>
 </div>
   
   
@@ -114,6 +231,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/06/04/about-kanban/">看板(Kanban)简记</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/05/16/kanbanflow/">试用Kanban管理工具 - KanbanFlow</a>

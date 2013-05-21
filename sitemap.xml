@@ -2,15 +2,19 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://gzhihao.github.io/blog/2012/05/16/kanbanflow/</loc>
-        <lastmod>2013-05-21T17:41:13+08:00</lastmod>
+        <lastmod>2013-05-21T18:04:22+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://gzhihao.github.io/blog/2012/06/04/about-kanban/</loc>
+        <lastmod>2013-05-21T18:15:24+08:00</lastmod>
     </url>
     <url>
         <loc>http://gzhihao.github.io/blog/archives/</loc>
-        <lastmod>2013-05-21T17:41:13+08:00</lastmod>
+        <lastmod>2013-05-21T18:15:24+08:00</lastmod>
     </url>
     <url>
         <loc>http://gzhihao.github.io/</loc>
-        <lastmod>2013-05-21T17:41:13+08:00</lastmod>
+        <lastmod>2013-05-21T18:15:24+08:00</lastmod>
     </url>
     <url>
         <loc>http://gzhihao.github.io/robots.txt</loc>

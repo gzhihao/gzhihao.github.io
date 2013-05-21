@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Summer dream]]></title>
-  <link href="http://gzhihao.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Agile | Summer dream]]></title>
+  <link href="http://gzhihao.github.io/blog/categories/agile/atom.xml" rel="self"/>
   <link href="http://gzhihao.github.io/"/>
   <updated>2013-05-21T18:15:24+08:00</updated>
   <id>http://gzhihao.github.io/</id>
@@ -24,7 +24,7 @@
 
 <p>看板最早起源于丰田，是其推动精益和持续改善的有效工具。</p>
 
-<p>一般而言，想提高做事效率，最有效的方式是让工作的各个环节流动平滑起来，消除瓶颈和减少等待时间。基于这个出发点，看板只规定两件事：1) 工作流必须可见，2) 控制&#8221;在制品&#8221;(Work In Progress) 上限，并在此基础上 3) 优化流程，缩短生产周期并使其可预测。以上三点是看板的精髓。</p>
+<p>一般而言，想提高做事效率，最有效的方式是让工作的各个环节流动平滑起来，消除瓶颈和减少等待时间。基于这个出发点，看板只规定两件事：1) 工作流必须可见，2) 控制"在制品"(Work In Progress) 上限，并在此基础上 3) 优化流程，缩短生产周期并使其可预测。以上三点是看板的精髓。</p>
 
 <h2>1)工作流可见</h2>
 
@@ -35,12 +35,12 @@
 
 <p>看板图直观地反映了工作的进度。当进度出现问题的时候，很容易暴露出来。</p>
 
-<h2>2） 控制&#8221;在制品&#8221;</h2>
+<h2>2） 控制"在制品"</h2>
 
 <p>在看板列中设置卡片数量上限（上图红色数字），当卡片数达到了列设置上限就不能再为该列添加新的卡片。如果这时有人手头上没有任务，他/她可以
 &ndash; 领取下游没有到达上限的列的任务。例如上图的Dev列的限制是3，而这时只有两个任务正处开发状态，可以领取Todo列的任务进行开发
 &ndash; 帮助其他人解决问题。例如Test列已达到上限，如果不尽快完成Test任务，会导致Dev任务排队等待测试，造成瓶颈，阻塞整体进度。
-列中设置的上限就是限制“在制品&#8221;，由于引入了这个限制，迫使大家优先解决阻塞和瓶颈问题，减少等待的时间。</p>
+列中设置的上限就是限制“在制品"，由于引入了这个限制，迫使大家优先解决阻塞和瓶颈问题，减少等待的时间。</p>
 
 <h2>3) 优化流程和缩短生产周期</h2>
 
@@ -85,31 +85,6 @@
 <li><a href="http://www.personalkanban.com/pk/personal-kanban-101/">Personal Kaban</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[试用Kanban管理工具 - KanbanFlow]]></title>
-    <link href="http://gzhihao.github.io/blog/2012/05/16/kanbanflow/"/>
-    <updated>2012-05-16T17:42:00+08:00</updated>
-    <id>http://gzhihao.github.io/blog/2012/05/16/kanbanflow</id>
-    <content type="html"><![CDATA[<p>KanbanFlow，正如其名，是一个Kanban管理工具。</p>
-
-<p><img src="http://ww1.sinaimg.cn/mw600/6d54b5a8jw1dszw8lw1w4j.jpg" alt="image" /></p>
-
-<p>什么是Kanban? <a href="http://www.crisp.se/kanban">Kanban</a> 也称作看板，源自丰田汽车生产的精益管理。除了工业生产外，现在被广泛用于软件开发管理中，也有人将其用于个人任务管理，例如
-<a href="http://www.personalkanban.com/pk/personal-kanban-101/">Personal Kanban</a>。</p>
-
-<p>KanbanFlow 类似Scrum whiteboard, 按任务状态设定不同列，任务从左至右流动直至完成。Kanban的核心思想之一是限制在制品(WIP), KanbanFlow也可以设定没列任务的上限。</p>
-
-<p>KanbanFlow可以用作项目管理，也可以个人任务管理。其特色在于：
-&ndash; 灵活定制，还可以随意增加列及看板
-&ndash; 不同类别可以用不同看板管理，例如可以分为 Work, Life, Personal development
-&ndash; 任务可以再细分任务，可记录估算时间和实际使用时间
-&ndash; 集成了番茄时间(<a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a>)，并可以查看统计数据，这点最赞
-&ndash; 支持团队协作，如任务分配</p>
-
-<p>这一两周暂时搁置Calinbox, 先试试KanbanFlow</p>
 ]]></content>
   </entry>
   
