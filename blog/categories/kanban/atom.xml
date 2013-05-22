@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Kanban | Summer dream]]></title>
   <link href="http://gzhihao.github.io/blog/categories/kanban/atom.xml" rel="self"/>
   <link href="http://gzhihao.github.io/"/>
-  <updated>2013-05-22T09:11:02+08:00</updated>
+  <updated>2013-05-22T10:08:35+08:00</updated>
   <id>http://gzhihao.github.io/</id>
   <author>
     <name><![CDATA[Kevin Guo]]></name>
@@ -113,12 +113,16 @@
 
 <p>KanbanFlow 类似Scrum whiteboard, 按任务状态设定不同列，任务从左至右流动直至完成。Kanban的核心思想之一是限制在制品(WIP), KanbanFlow也可以设定没列任务的上限。</p>
 
-<p>KanbanFlow可以用作项目管理，也可以个人任务管理。其特色在于：
-&ndash; 灵活定制，还可以随意增加列及看板
-&ndash; 不同类别可以用不同看板管理，例如可以分为 Work, Life, Personal development
-&ndash; 任务可以再细分任务，可记录估算时间和实际使用时间
-&ndash; 集成了番茄时间(<a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a>)，并可以查看统计数据，这点最赞
-&ndash; 支持团队协作，如任务分配</p>
+<p>KanbanFlow可以用作项目管理，也可以个人任务管理。其特色在于：</p>
+
+<ul>
+<li>灵活定制，还可以随意增加列及看板</li>
+<li>不同类别可以用不同看板管理，例如可以分为 Work, Life, Personal development</li>
+<li>任务可以再细分任务，可记录估算时间和实际使用时间</li>
+<li>集成了番茄时间(<a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a>)，并可以查看统计数据，这点最赞</li>
+<li>支持团队协作，如任务分配</li>
+</ul>
+
 
 <p>这一两周暂时搁置Calinbox, 先试试KanbanFlow</p>
 ]]></content>
