@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: css | Summer dream]]></title>
+  <link href="http://gzhihao.github.io/blog/categories/css/atom.xml" rel="self"/>
+  <link href="http://gzhihao.github.io/"/>
+  <updated>2013-05-28T14:44:36+08:00</updated>
+  <id>http://gzhihao.github.io/</id>
+  <author>
+    <name><![CDATA[Kevin Guo]]></name>
+    <email><![CDATA[magicgear@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bootstrap定制-工具与目录]]></title>
+    <link href="http://gzhihao.github.io/blog/2012/07/23/bootstrap-customization/"/>
+    <updated>2012-07-23T14:54:00+08:00</updated>
+    <id>http://gzhihao.github.io/blog/2012/07/23/bootstrap-customization</id>
+    <content type="html"><![CDATA[<p>Twitter的Bootstrap简洁好用，但内置的配色和样式用多了难免会审美疲劳。如果直接修改或覆盖生成的css会失去灵活性，而且以后升级维护也会非常麻烦。我使用的方式是下载bootstrap的less文件，添加自己的less文件重新编译来定制样式。</p>
+
+<h1>自定义less</h1>
+
+<p>以下是Bootstrap的less文件引用关系</p>
+
+<ul>
+<li>bootstrap.less (编译后生成bootstrap.css)
+
+<ul>
+<li>variables.less</li>
+<li>mixins.less</li>
+<li>buttons.less</li>
+<li>… (widgets)</li>
+</ul>
+</li>
+<li>responsive.less (编译后生成bootsrap-responsive.css)
+
+<ul>
+<li>variables.less</li>
+<li>mixins.less</li>
+</ul>
+</li>
+</ul>
+
+
+<p>bootstrap.less 是主文件，定义需要引用的文件。variables.less和mixins.less定义各种变量和函数。而Widget(如button, navbar)的具体样式则由对应的文件分别定义。修改这两个文件基本上可以满足大部分自定义的需求。responsive.less定义的是响应式布局相关的样式，一般不需要改动。</p>
+
+<h2>具体步骤</h2>
+
+<p>1) 以bootstrap.less为蓝本定义项目的less文件style.less。import 的路径作相应修改</p>
+
+<p>2) variable的改动较多，所以单独定义style_variables.less文件用于覆盖默认变量定义。如果必要，其他less文件也可以作类似处理</p>
+
+<p>3) 编译style.less文件，生成style.css。html中的引用由bootstrap.css改为style.css。</p>
+
+<p>4) 如果以后需要升级bootstrap，检查一下新的bootstrap.css和variables.css有没有变化，一般直接替换bootstrap下的less文件就可以了。</p>
+
+<h2>文件示例</h2>
+
+<p>目录结构</p>
+
+<p>```
+/Web_dir</p>
+
+<pre><code> /bootstrap
+      /less
+      /js
+ /css
+      style.css
+ /less
+      style.less
+      variables_override.less
+      buttons_override.less
+      my_component.less
+</code></pre>
+
+<p>```</p>
+
+<p>style.less
+``` css
+/<em>!
+ * style.css based on bootstrap.less (v2.0.2)
+ </em>/</p>
+
+<p>// CSS Reset
+@import &ldquo;../bootstrap/less/reset.less&rdquo;;</p>
+
+<p>// Core variables and mixins
+@import &ldquo;../bootstrap/less/variables.less&rdquo;; // Modify this for custom colors, font-sizes, etc
+@import &ldquo;variables_override.less&rdquo;//project overriding variables
+@import &ldquo;../bootstrap/less/mixins.less&rdquo;;</p>
+
+<p>// Grid system and page structure
+@import &ldquo;../bootstrap/less/scaffolding.less&rdquo;;
+@import &ldquo;../bootstrap/less/grid.less&rdquo;;
+@import &ldquo;../bootstrap/less/layouts.less&rdquo;;
+```</p>
+
+<p>variables_override.less
+``` css
+//override the bootstrap/less/variabiles</p>
+
+<p>@linkColor:             #f89632; //Green #7CA60A  //Orange #f89632</p>
+
+<p>@bodyBackground:        #f7f7f7;
+```</p>
+
+<h1>编译less文件</h1>
+
+<p>编译less文件可以使用client-side或server-side方式，client-side由浏览器完成less文件的编译，一般在开发阶段使用；而production一般使用server-side方式，事先编译好css文件。现在有很多编译工具可以监测文件变化，瞬间完成编译，所以即使在开发阶段也可以使用server-side方式。</p>
+
+<p><a href="http://less.cnodejs.net/tools">less tools</a> 有很多less编译工具，Mac，Windows和Linux上的都有。如果你在用Sublime Text2， 使用插件会更方便些。我使用的是<a href="https://github.com/timdouglas/sublime-less2css">less2css</a>，用package control可以直接下载。使用千需要简单配置一下。配置可以放在全局或者项目级别。如果选择项目级别，点击Project->Edit project菜单项修改配置，在setttings项中增加less2css节点就可以实现自动编译了。</p>
+
+<p>``` json</p>
+
+<pre><code>"settings":
+{
+    ...
+
+    "less2css":
+        {
+            "autoCompile": true,
+            "main_file": "style.less",
+            "minify": true,
+            "outputDir": "./css"
+        }
+}
+</code></pre>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>
