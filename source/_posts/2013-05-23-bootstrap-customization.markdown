@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bootstrap定制-工具与目录"
+title: "定制 Twitter Bootstrap"
 date: 2012-07-23 14:54
 comments: true
 categories: 
