@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: productivity | Summer dream]]></title>
-  <link href="http://gzhihao.github.io/blog/categories/productivity/atom.xml" rel="self"/>
+  <title><![CDATA[Category: trello | Summer dream]]></title>
+  <link href="http://gzhihao.github.io/blog/categories/trello/atom.xml" rel="self"/>
   <link href="http://gzhihao.github.io/"/>
   <updated>2013-07-04T11:06:19+08:00</updated>
   <id>http://gzhihao.github.io/</id>
@@ -49,35 +49,6 @@
 <li><p><a href="http://www.ifanr.com/80752">ifanr对Trello的介绍</a></p></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[试用Kanban管理工具 - KanbanFlow]]></title>
-    <link href="http://gzhihao.github.io/blog/2012/05/16/kanbanflow/"/>
-    <updated>2012-05-16T17:42:00+08:00</updated>
-    <id>http://gzhihao.github.io/blog/2012/05/16/kanbanflow</id>
-    <content type="html"><![CDATA[<p>KanbanFlow，正如其名，是一个Kanban管理工具。</p>
-
-<p><img src="http://ww1.sinaimg.cn/mw600/6d54b5a8jw1dszw8lw1w4j.jpg" alt="image" /></p>
-
-<p>什么是Kanban? <a href="http://www.crisp.se/kanban">Kanban</a> 也称作看板，源自丰田汽车生产的精益管理。除了工业生产外，现在被广泛用于软件开发管理中，也有人将其用于个人任务管理，例如
-<a href="http://www.personalkanban.com/pk/personal-kanban-101/">Personal Kanban</a>。</p>
-
-<p>KanbanFlow 类似Scrum whiteboard, 按任务状态设定不同列，任务从左至右流动直至完成。Kanban的核心思想之一是限制在制品(WIP), KanbanFlow也可以设定没列任务的上限。</p>
-
-<p>KanbanFlow可以用作项目管理，也可以个人任务管理。其特色在于：</p>
-
-<ul>
-<li>灵活定制，还可以随意增加列及看板</li>
-<li>不同类别可以用不同看板管理，例如可以分为 Work, Life, Personal development</li>
-<li>任务可以再细分任务，可记录估算时间和实际使用时间</li>
-<li>集成了番茄时间(<a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a>)，并可以查看统计数据，这点最赞</li>
-<li>支持团队协作，如任务分配</li>
-</ul>
-
-
-<p>这一两周暂时搁置Calinbox, 先试试KanbanFlow</p>
 ]]></content>
   </entry>
   
